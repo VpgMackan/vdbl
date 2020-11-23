@@ -1,6 +1,6 @@
 {
   "name": "vdbl",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A easy discord bot to use for you needs",
   "main": "index.js",
   "scripts": {
