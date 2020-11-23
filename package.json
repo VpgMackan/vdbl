@@ -1,0 +1,26 @@
+{
+  "name": "vdbl",
+  "version": "1.0.6",
+  "description": "A easy discord bot to use for you needs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "keywords": [
+    "Discord"
+  ],
+  "author": "mackan_dev",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vpgstudio/vdbm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vpgstudio/vdbm/issues"
+  },
+  "homepage": "https://github.com/vpgstudio/vdbm#readme",
+  "devDependencies": {}
+}
