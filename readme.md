@@ -23,7 +23,7 @@ Create a file with any name, for example `index.js`, add the following lines:
 const db = require("Vdbl");
 
 db.add("Ping", "pong", true); // the last true means you can type in however with caps and it whil work.
-db.run(token, status, prefix);
+db.run(token, prefix);
 ```
 
 Then run `node filename.js` in a terminal.

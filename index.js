@@ -4,9 +4,6 @@ const client = new Discord.Client();
 exports.run = function (tokan, status, prefix) {
   client.on("ready", () => {
     console.log(`Logged in as ${client.user.tag}!`);
-    client.user.setActivity(status, {
-      type: "PLAYING",
-    });
   });
 
   client.login(tokan);
@@ -23,5 +20,13 @@ exports.add = function (name, output, TranslateToLower = true) {
         msg.channel.send(output);
       }
     }
+  });
+};
+
+exports.status = function (Type = 1, Txt) {
+  client.on("ready", () => {
+    client.user.setActivity(Txt, {
+      type: Type,
+    });
   });
 };
