@@ -11,7 +11,7 @@ exports.run = function (tokan, status, prefix) {
 
 exports.add = function (name, output, TranslateToLower = true) {
   client.on("message", (msg) => {
-    if (TranslateToLower == true) {
+    if (TranslateToLower === true) {
       if (msg.content.toLowerCase() === name.toLowerCase()) {
         msg.channel.send(output);
       }
